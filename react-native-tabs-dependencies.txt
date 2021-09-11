@@ -1,0 +1,5 @@
+1 - 
+yarn add @react-navigation/bottom-tabs
+ 
+ 
+ 

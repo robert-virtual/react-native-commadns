@@ -1,0 +1,11 @@
+1 - 
+yarn add react-native-vector-icons
+
+1.1 - agregar tipos de datos
+
+yarn add -D @types/react-native-vector-icons
+
+
+2 - Edit "android/app/build.gradle" ( NOT android/build.gradle ) and add the following:
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"

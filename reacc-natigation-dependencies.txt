@@ -1,0 +1,16 @@
+1 - 
+yarn add @react-navigation/native
+
+2 -
+yarn add react-native-screens react-native-safe-area-context
+
+3 - en la ruta "android/app/src/main/java/<your package name>/MainActivity.java" pegar:  
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+  super.onCreate(null);
+}
+
+4- agregar import en el miso archivo de arriba
+import android.os.Bundle;
+
+5- ready
